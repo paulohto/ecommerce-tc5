@@ -38,7 +38,6 @@ public class SecurityConfigurations {
                                 .requestMatchers("/complement/**").hasRole("ADMIN")
                                 //.requestMatchers(HttpMethod.POST,"/products/**").hasRole("ADMIN")
                                 .anyRequest().authenticated()
-
                         )
                 
                 //.httpBasic(Customizer.withDefaults()) //Formato para API
