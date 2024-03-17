@@ -6,13 +6,13 @@ public enum PaymentType {
     DEBITO("debito"),
     BOLETO("boleto");
 
-    private String type;
+    private String tipo;
 
-    PaymentType(String type){
-        this.type = type;
+    PaymentType(String tipo){
+        this.tipo = tipo;
     }
 
     public String getPaymentType(){
-        return type;
+        return tipo;
     }
 }

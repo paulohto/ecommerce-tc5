@@ -4,13 +4,13 @@ public enum PaymentFinisher {
     CONCLUIR("concluir"),
     DESISTIR("desistir");
 
-    private String type;
+    private String finish;
 
-    PaymentFinisher(String type){
-        this.type = type;
+    PaymentFinisher(String finish){
+        this.finish = finish;
     }
 
     public String getPaymentFinisher(){
-        return type;
+        return finish;
     }
 }
